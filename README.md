@@ -1,4 +1,4 @@
 datasciencecoursera
 ===================
 
-Homework Week 2 Coursera Data Scienze Specialization 
+Homework Week 2 Coursera Data Science Specialization 
