@@ -1,0 +1,13 @@
+logrotate state -- version 2
+"/home/waideman/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_compiz.1000.crash.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/gnome-session-Unity.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/window-stack-bridge.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/indicator-sound.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/indicator-printers.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/update-notifier-release.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/update-notifier-crash-_var_crash__usr_share_apport_recoverable_problem.1000.crash.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/indicator-bluetooth.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/unity-panel-service.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/dbus.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/im-config.log" 2014-9-18-7:35:9
+"/home/waideman/.cache/upstart/unity7.log" 2014-9-18-7:35:9

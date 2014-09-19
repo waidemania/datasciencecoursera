@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/waideman/README.md" added="2014-09-18T02:32:11Z" modified="2014-09-18T02:32:32Z" visited="2014-09-18T02:32:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/lib/rstudio/bin/rstudio %F&apos;" modified="2014-09-18T02:32:32Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/waideman/Pictures/Screenshot%20from%202014-09-18%2000%3A04%3A47.png" added="2014-09-18T03:04:53Z" modified="2014-09-18T03:04:53Z" visited="2014-09-18T03:04:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2014-09-18T03:04:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/waideman/Pictures/Screenshot%20from%202014-09-18%2000:04:47.png" added="2014-09-18T03:15:55Z" modified="2014-09-18T03:15:55Z" visited="2014-09-18T03:15:55.363146Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2014-09-18T03:15:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

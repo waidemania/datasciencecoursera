@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub:Help" />
+  <title>Fork A Repo &middot; GitHub Help</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link href="/assets/help/application-3d94e23817384491086b35e0fc1a81ad.css" media="screen" rel="stylesheet" />
+  <!--[if lt IE 8]>
+    <link href="/assets/help/ie-hacks-194fe5b1f332ab105e1ce4a35bca985c.css" media="screen" rel="stylesheet" />
+  <![endif]-->
+
+  <script src="/assets/help/application-3d069b38e206f01867982ac4903135ae.js"></script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="v8lB7ryEx3TGSPC+5ynTMVnA59fZPjZQzfgsvQip2hI=" name="csrf-token" />
+</head>
+
+<body class=" platform-linux" id="com">
+<div id="not-footer">
+  <div id="header">
+    <div class="clearfix">
+        <h1 class="site-logo"><a href="/">GitHub Help</a></h1>
+
+      <ul class="top-nav">
+        <li><a href="https://github.com/contact">Contact Support</a></li>
+        <li><a href="http://www.github.com/">Return to GitHub</a></li>
+
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div id="content-wrapper">
+    <div class="site">
+
+      <div class="content-header small">
+  <h6 class="breadcrumbs">
+    
+    <a href="/categories/54/articles">Bootcamp</a>
+    /
+    Fork A Repo
+  </h6>
+
+  <div class="search-form small">
+    <form accept-charset="UTF-8" action="/articles/search" id="articles-search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <div class="outer">
+    <div class="inner fade-label">
+      <input type="text" name="q" id="q" class="js-articles-quicksearch"
+        placeholder="How can we help?" data-url="/articles/quicksearch" />
+      <button><span class="mini-icon octicon octicon-search"></span>Search</button>
+      <div class="autocomplete-results" style="display: none"></div>
+    </div>
+  </div>
+</form>
+  </div>
+
+  <span class="last-updated-at">Article last updated on 16-Sep-14</span>
+</div>
+
+<div class="article">
+  <h2>Fork A Repo</h2>
+
+  <div id="article-platform-nav">
+    <ul>
+        <li class="platform-mac">
+          <a href="#platform-mac" data-platform=mac>
+            mac
+          </a>
+        </li>
+        <li class="platform-windows">
+          <a href="#platform-windows" data-platform=windows>
+            windows
+          </a>
+        </li>
+        <li class="platform-linux">
+          <a href="#platform-linux" data-platform=linux>
+            linux
+          </a>
+        </li>
+        <li class="platform-all">
+          <a href="#platform-all" data-platform=all>
+            all
+          </a>
+        </li>
+    </ul>
+  </div>
+
+  <div class="article-body content-body wikistyle markdown-format">
+      
+
+<div class="intro">
+
+<p>A <em>fork</em> is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.</p>
+
+</div>
+
+<p>Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.</p>
+
+<h5>
+<a name="propose-changes-to-someone-elses-project" class="anchor" href="#propose-changes-to-someone-elses-project"><span class="octicon octicon-link"></span></a>Propose changes to someone else's project</h5>
+
+<p>A great example of using forks to propose changes is for bug fixes. Rather than logging an issue for a bug you've found, you can:</p>
+
+<ul>
+<li>Fork the repository.</li>
+<li>Make the fix.</li>
+<li>Submit a <em>pull request</em> to the project owner.</li>
+</ul><p>If the project owner likes your work, they might pull your fix into the original repository!</p>
+
+<h5>
+<a name="use-someone-elses-project-as-a-starting-point-for-your-own-idea" class="anchor" href="#use-someone-elses-project-as-a-starting-point-for-your-own-idea"><span class="octicon octicon-link"></span></a>Use someone else's project as a starting point for your own idea.</h5>
+
+<p>At <a href="http://opensource.org/about">the heart of open source</a> is the idea that by sharing code, we can make better, more reliable software. In fact, when you create a repository on GitHub, you have a choice of automatically including a <a href="http://choosealicense.com/">license file</a>, which determines how you want your project to be shared with others.</p>
+
+<h3>
+<a name="fork-an-example-repository" class="anchor" href="#fork-an-example-repository"><span class="octicon octicon-link"></span></a>Fork an example repository</h3>
+
+<p>Forking a repository is a simple two-step process. We've created a repository for you to practice with!</p>
+
+<ol>
+<li>On GitHub, navigate to the <a href="https://github.com/octocat/Spoon-Knife">octocat/Spoon-Knife</a> repository.</li>
+<li>In the top-right corner of the page, click <strong>Fork</strong>.
+<img src="https://github-images.s3.amazonaws.com/help/repository/fork_button.jpg" alt="Fork button">
+</li>
+</ol><p>That's it! Now, you have a <em>fork</em> of the original octocat/Spoon-Knife repository.</p>
+
+<h3>
+<a name="keep-your-fork-synced" class="anchor" href="#keep-your-fork-synced"><span class="octicon octicon-link"></span></a>Keep your fork synced</h3>
+
+<p>You might fork a project in order to propose changes to the <em>upstream</em>, or original, repository. In this case, it's good practice to regularly sync your fork with the upstream repository. To do this, you'll need to use Git on the command line. You can practice setting the upstream repository using the same <a href="https://github.com/octocat/Spoon-Knife">octocat/Spoon-Knife</a> repository you just forked!</p>
+
+<h4>
+<a name="step-1-set-up-git" class="anchor" href="#step-1-set-up-git"><span class="octicon octicon-link"></span></a>Step 1: Set Up Git</h4>
+
+<p>If you haven't yet, you should first <a href="/articles/set-up-git">set up Git</a>. Don't forget to <a href="/articles/set-up-git#next-steps-authenticating-with-github-from-git">set up authentication to GitHub from Git</a> as well.</p>
+
+<h4>
+<a name="step-2-create-a-local-clone-of-your-fork" class="anchor" href="#step-2-create-a-local-clone-of-your-fork"><span class="octicon octicon-link"></span></a>Step 2: Create a local clone of your fork</h4>
+
+<p>Right now, you have a fork of the Spoon-Knife repository on GitHub, but you don't have the files in that repository on your computer. Let's create a <em>clone</em> of your fork locally on your computer.</p>
+
+<ol>
+<li>On GitHub, navigate to <strong>your fork</strong> of the Spoon-Knife repository.</li>
+<li>In the right sidebar of your fork's repository page, click <span class="octicon octicon-clippy" aria-label="Copy to clipboard"></span> to copy the clone URL for your fork. This will either be an HTTPS or SSH clone URL, depending on how you authenticate to GitHub.
+<img src="http://github-images.s3.amazonaws.com/help/repository/clone-repo-clone-url-button.png" alt="Clone URL button">
+</li>
+<li>Open Terminal (for Mac and Linux users) or the command line (for Windows users).</li>
+<li>
+<p>Type <code>git clone</code>, and then paste the URL you copied in Step 2. It will look like this, with your GitHub username instead of <code>YOUR-USERNAME</code>:</p>
+
+<pre class="command-line">
+<span class="command">git clone https://github.com/<em>YOUR-USERNAME</em>/Spoon-Knife</span>
+</pre>
+</li>
+<li>
+<p>Press <strong>Enter</strong>. Your local clone will be created.</p>
+
+<pre class="command-line">
+<span class="command">git clone https://github.com/<em>YOUR-USERNAME</em>/Spoon-Knife</span>
+<span class="output"><span># </span>Cloning into `Spoon-Knife`...</span>
+<span class="output"><span># </span>remote: Counting objects: 10, done.</span>
+<span class="output"><span># </span>remote: Compressing objects: 100% (8/8), done.</span>
+<span class="output"><span># </span>remove: Total 10 (delta 1), reused 10 (delta 1)</span>
+<span class="output"><span># </span>Unpacking objects: 100% (10/10), done.</span>
+</pre>
+</li>
+</ol><p>Now, you have a local copy of your fork of the Spoon-Knife repository!</p>
+
+<h4>
+<a name="step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository" class="anchor" href="#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository"><span class="octicon octicon-link"></span></a>Step 3: Configure Git to sync your fork with the original Spoon-Knife repository</h4>
+
+<p>When you fork a project in order to propose changes to the original repository, you can configure Git to pull changes from the original, or <em>upstream</em>, repository into the local clone of your fork.</p>
+
+<ol>
+<li>On GitHub, navigate to the <a href="https://github.com/octocat/Spoon-Knife">octocat/Spoon-Knife</a> repository.</li>
+<li>In the right sidebar of the repository page, click <span class="octicon octicon-clippy" aria-label="Copy to clipboard"></span> to copy the clone URL for the repository.
+<img src="http://github-images.s3.amazonaws.com/help/repository/clone-repo-clone-url-button.png" alt="Clone URL button">
+</li>
+<li>Open Terminal (for Mac and Linux users) or the command line (for Windows users).</li>
+<li>Change directories to the location of the fork you cloned in <a href="#step-2-create-a-local-clone-of-your-fork">Step 2: Create a local clone of your fork</a>.
+
+<ul>
+<li>To go to your home directory, type just <code>cd</code> with no other text.</li>
+<li>To list the files and folders in your current directory, type <code>ls</code>.</li>
+<li>To go into one of your listed directories, type <code>cd your_listed_directory</code>.</li>
+<li>To go up one directory, type <code>cd ..</code>.</li>
+</ul>
+</li>
+<li>
+<p>Type <code>git remote -v</code> and press <strong>Enter</strong>. You'll see the current configured remote repository for your fork.</p>
+
+<pre class="command-line">
+<span class="command">git remote -v</span>
+<span class="output"><span># </span>origin  https://github.com/<em>YOUR_USERNAME</em>/<em>YOUR_FORK</em>.git (fetch)</span>
+<span class="output"><span># </span>origin  https://github.com/<em>YOUR_USERNAME</em>/<em>YOUR_FORK</em>.git (push)</span>
+</pre>
+</li>
+<li>
+<p>Type <code>git remote add upstream</code>, and then paste the URL you copied in Step 2 and press <strong>Enter</strong>. It will look like this:</p>
+
+<pre class="command-line">
+<span class="command">git remote add upstream https://github.com/octocat/Spoon-Knife.git</span>
+</pre>
+</li>
+<li>
+<p>To verify the new upstream repository you've specified for your fork, type <code>git remote -v</code> again. You should see the URL for your fork as <code>origin</code>, and the URL for the original repository as <code>upstream</code>.</p>
+
+<pre class="command-line">
+<span class="command">git remote -v</span>
+<span class="output"><span># </span>origin    https://github.com/<em>YOUR_USERNAME</em>/<em>YOUR_FORK</em>.git (fetch)</span>
+<span class="output"><span># </span>origin    https://github.com/<em>YOUR_USERNAME</em>/<em>YOUR_FORK</em>.git (push)</span>
+<span class="output"><span># </span>upstream  https://github.com/<em>ORIGINAL_OWNER</em>/<em>ORIGINAL_REPOSITORY</em>.git (fetch)</span>
+<span class="output"><span># </span>upstream  https://github.com/<em>ORIGINAL_OWNER</em>/<em>ORIGINAL_REPOSITORY</em>.git (push)</span>
+</pre>
+</li>
+</ol><p>Now, you can keep your fork synced with the upstream repository with a few Git commands. For more information, see "<a href="/articles/syncing-a-fork">Syncing a fork</a>."</p>
+
+<h4>
+<a name="next-steps" class="anchor" href="#next-steps"><span class="octicon octicon-link"></span></a>Next Steps</h4>
+
+<p>The sky's the limit with the changes you can make to a fork, including:</p>
+
+<ul>
+<li>
+<strong>Creating branches:</strong> <em>Branches</em> allow you to build new features or test out ideas without putting your main project at risk.</li>
+<li>
+<strong>Opening pull requests:</strong> If you are hoping to contribute back to the original repository, you can send a request to the original author to pull your fork into their repository by submitting a <a href="/articles/using-pull-requests">pull request</a>.</li>
+</ul><h3>
+<a name="find-another-repository-to-fork" class="anchor" href="#find-another-repository-to-fork"><span class="octicon octicon-link"></span></a>Find another repository to fork</h3>
+
+<p>Every public repository on GitHub can be forked, so find another project you're interested in and get forking!</p>
+
+<p>The <a href="https://github.com/explore">Explore GitHub</a> page is a great place to find projects that pique your interest. The content changes all the time, so you can visit that page often to see what's new and cool on GitHub.</p>
+
+<p><img src="https://github-images.s3.amazonaws.com/help/repository/fork-repo-explore.bmp" alt="GitHub Explore page"></p>
+
+<h3>
+<a name="celebrate" class="anchor" href="#celebrate"><span class="octicon octicon-link"></span></a>Celebrate</h3>
+
+<p>You have now forked a repository, practiced cloning your fork, and configured an upstream repository. What do you want to do next?</p>
+
+<ul>
+<li><a href="/articles/set-up-git">Set Up Git</a></li>
+<li><a href="/articles/create-a-repo">Create A Repository</a></li>
+<li><strong>Fork A Repository</strong></li>
+<li><a href="/articles/be-social">Be Social</a></li>
+</ul>
+  </div>
+
+
+  <div class="support-footer">
+    <hr />
+    <ul class="article-footer button-nav">
+      <li>
+        <a class="minibutton mini-icon" href="https://github.com/contact"><span class="octicon octicon-comment-discussion"></span> Contact a human</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+  <div id="footer">
+    <div class="inner">
+      <a href="https://github.com" class="invertocat">
+        <img src="/assets/help/invertocat-fcbcdb2c581c3e42c0b4d0508849961f.png" width="24" height="24" />
+      </a>
+      <p class="left">
+        &copy; <span id="year">year</span> GitHub Inc. All rights reserved.
+      </p>
+        <ul class="links right">
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/privacy-policy">Privacy</a></li>
+            <li><a href="/security">Security</a></li>
+          </ul>
+    </div>
+  </div> <!-- /#footer -->
+
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f4d4164f5a1f5651500026c');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3769691-27']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","5d46706dc7","1956352","TEINDQ8KRQgb",0,13230549,new Date().getTime(),"","","","",""]);</script></body>
+</html>
+ih˝ÄÅB              :Lè+       -:https://help.github.com/articles/fork-a-repo security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Fri, 19 Sep 2014 02:35:27 GMT
+Etag: "735608d4eb3ecaaed86c294e47e9918f"
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000
+x-content-type-options: nosniff
+X-Frame-Options: deny
+X-Request-Id: da52a513-9236-4e06-aff1-eca42b30f49a
+X-Runtime: 0.087674
+X-XSS-Protection: 1; mode=block
+Content-Length: 15842
+ charset UTF-8 uncompressed-len 0   =‚

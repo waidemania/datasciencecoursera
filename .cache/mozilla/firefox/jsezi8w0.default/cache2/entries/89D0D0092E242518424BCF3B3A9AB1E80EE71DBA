@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub:Help" />
+  <title>Pushing to a remote &middot; GitHub Help</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link href="/assets/help/application-3d94e23817384491086b35e0fc1a81ad.css" media="screen" rel="stylesheet" />
+  <!--[if lt IE 8]>
+    <link href="/assets/help/ie-hacks-194fe5b1f332ab105e1ce4a35bca985c.css" media="screen" rel="stylesheet" />
+  <![endif]-->
+
+  <script src="/assets/help/application-3d069b38e206f01867982ac4903135ae.js"></script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="v8lB7ryEx3TGSPC+5ynTMVnA59fZPjZQzfgsvQip2hI=" name="csrf-token" />
+</head>
+
+<body class=" platform-linux" id="com">
+<div id="not-footer">
+  <div id="header">
+    <div class="clearfix">
+        <h1 class="site-logo"><a href="/">GitHub Help</a></h1>
+
+      <ul class="top-nav">
+        <li><a href="https://github.com/contact">Contact Support</a></li>
+        <li><a href="http://www.github.com/">Return to GitHub</a></li>
+
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div id="content-wrapper">
+    <div class="site">
+
+      <div class="content-header small">
+  <h6 class="breadcrumbs">
+    
+    <a href="/categories/18/articles">Managing Remotes</a>
+    /
+    Pushing to a remote
+  </h6>
+
+  <div class="search-form small">
+    <form accept-charset="UTF-8" action="/articles/search" id="articles-search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <div class="outer">
+    <div class="inner fade-label">
+      <input type="text" name="q" id="q" class="js-articles-quicksearch"
+        placeholder="How can we help?" data-url="/articles/quicksearch" />
+      <button><span class="mini-icon octicon octicon-search"></span>Search</button>
+      <div class="autocomplete-results" style="display: none"></div>
+    </div>
+  </div>
+</form>
+  </div>
+
+  <span class="last-updated-at">Article last updated on 16-Sep-14</span>
+</div>
+
+<div class="article">
+  <h2>Pushing to a remote</h2>
+
+  <div id="article-platform-nav">
+    <ul>
+        <li class="platform-mac">
+          <a href="#platform-mac" data-platform=mac>
+            mac
+          </a>
+        </li>
+        <li class="platform-windows">
+          <a href="#platform-windows" data-platform=windows>
+            windows
+          </a>
+        </li>
+        <li class="platform-linux">
+          <a href="#platform-linux" data-platform=linux>
+            linux
+          </a>
+        </li>
+        <li class="platform-all">
+          <a href="#platform-all" data-platform=all>
+            all
+          </a>
+        </li>
+    </ul>
+  </div>
+
+  <div class="article-body content-body wikistyle markdown-format">
+      
+
+<div class="intro">
+
+<p>Use <code>git push</code> to push your local branch to a remote repository.</p>
+
+</div>
+
+<p>The <code>git push</code> command takes two arguments:</p>
+
+<ul>
+<li>A remote name, for example, <code>origin</code>
+</li>
+<li>A branch name, for example, <code>master</code>
+</li>
+</ul><p>For example:</p>
+
+<pre class="command-line">
+git push <em> &lt;REMOTENAME&gt; &lt;BRANCHNAME&gt; </em>
+</pre>
+
+<p>As an example, you usually run <code>git push origin master</code> to push your local changes
+to your online repository.</p>
+
+<h3>
+<a name="renaming-branches" class="anchor" href="#renaming-branches"><span class="octicon octicon-link"></span></a>Renaming branches</h3>
+
+<p>To rename a branch, you'd use the same <code>git push</code> command, but you would add
+one more argument: the name of the new branch. For example:</p>
+
+<pre class="command-line">
+git push <em> &lt;REMOTENAME&gt; &lt;LOCALBRANCHNAME&gt;</em>:<em>&lt;REMOTEBRANCHNAME&gt; </em>
+</pre>
+
+<p>This pushes the <code>LOCALBRANCHNAME</code> to your <code>REMOTENAME</code>, but it is renamed to <code>REMOTEBRANCHNAME</code>.</p>
+
+<h3>
+<a name="dealing-with-non-fast-forward-errors" class="anchor" href="#dealing-with-non-fast-forward-errors"><span class="octicon octicon-link"></span></a>Dealing with "non-fast-forward" errors</h3>
+
+<p>If your local copy of a repository is out of sync with, or "behind," the upstream
+repository you're pushing to, you'll get a message saying <code>non-fast-forward updates were rejected</code>.
+This means that you must retrieve, or "fetch," the upstream changes, before
+you are able to push your local changes.</p>
+
+<p>For more information on this error, see "<a href="/articles/dealing-with-non-fast-forward-errors">Dealing with non-fast-forward errors</a>."</p>
+
+<h3>
+<a name="pushing-tags" class="anchor" href="#pushing-tags"><span class="octicon octicon-link"></span></a>Pushing tags</h3>
+
+<p>By default, and without additional parameters, <code>git push</code> sends all matching branches
+that have the same names as remote branches.</p>
+
+<p>To push a single tag, you can issue the same command as pushing a branch:</p>
+
+<pre class="command-line">
+git push <em> &lt;REMOTENAME&gt; &lt;TAGNAME&gt; </em>
+</pre>
+
+<p>To push all your tags, you can type the command:</p>
+
+<pre class="command-line">
+git push <em> &lt;REMOTENAME&gt;</em> --tags
+</pre>
+
+<h3>
+<a name="deleting-a-remote-branch-or-tag" class="anchor" href="#deleting-a-remote-branch-or-tag"><span class="octicon octicon-link"></span></a>Deleting a remote branch or tag</h3>
+
+<p>The syntax to delete a branch is a bit arcane at first glance:</p>
+
+<pre class="command-line">
+git push <em> &lt;REMOTENAME&gt;</em> :<em>&lt;BRANCHNAME&gt; </em>
+</pre>
+
+<p>Note that there is a space before the colon. The command resembles the same steps
+you'd take to rename a branch. However, here, you're telling Git to push <em>nothing</em>
+into <code>BRANCHNAME</code> on <code>REMOTENAME</code>. Because of this, <code>git push</code> deletes the branch
+on the remote repository.</p>
+
+<h3>
+<a name="remotes-and-forks" class="anchor" href="#remotes-and-forks"><span class="octicon octicon-link"></span></a>Remotes and forks</h3>
+
+<p>You might already know that <a href="https://guides.github.com/overviews/forking/">you can "fork" repositories</a>
+on GitHub.</p>
+
+<p>When you clone a repository you own, you provide it with a remote URL that tells
+Git where to fetch and push updates. If you want to collaborate with the original
+repository, you'd add a new remote URL, typically called <code>upstream</code>, to
+your local Git clone:</p>
+
+<pre class="command-line">
+git remote set-url upstream <em> &lt;THEIR_REMOTE_URL&gt; </em>
+</pre>
+
+<p>Now, you can fetch updates and branches from <em>their</em> fork:</p>
+
+<pre class="command-line">
+git fetch upstream branch
+<span class="comment"># Grab the upstream remote's branches</span>
+<span class="output"><span># </span>remote: Counting objects: 75, done.</span>
+<span class="output"><span># </span>remote: Compressing objects: 100% (53/53), done.</span>
+<span class="output"><span># </span>remote: Total 62 (delta 27), reused 44 (delta 9)</span>
+<span class="output"><span># </span>Unpacking objects: 100% (62/62), done.</span>
+<span class="output"><span># </span>From https://github.com/<em>octocat</em>/<em>repo</em></span>
+<span class="output"><span># </span> * [new branch]      master     -&gt; upstream/master</span>
+</pre>
+
+<p>When you're done making local changes, you can push your local branch to GitHub
+and <a href="/articles/using-pull-requests">initiate a pull request</a>.</p>
+
+<p>For more information on working with forks, see "<a href="/articles/syncing-a-fork">Syncing a fork</a>".</p>
+
+<h3>
+<a name="further-reading" class="anchor" href="#further-reading"><span class="octicon octicon-link"></span></a>Further reading</h3>
+
+<ul>
+<li><a href="http://git-scm.com/book/ch5-2.html">The "Remotes" chapter from the "Pro Git" book</a></li>
+<li><a href="http://git-scm.com/docs/git-remote.html"><code>git remote</code> man page</a></li>
+</ul>
+  </div>
+
+
+  <div class="support-footer">
+    <hr />
+    <ul class="article-footer button-nav">
+      <li>
+        <a class="minibutton mini-icon" href="https://github.com/contact"><span class="octicon octicon-comment-discussion"></span> Contact a human</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+  <div id="footer">
+    <div class="inner">
+      <a href="https://github.com" class="invertocat">
+        <img src="/assets/help/invertocat-fcbcdb2c581c3e42c0b4d0508849961f.png" width="24" height="24" />
+      </a>
+      <p class="left">
+        &copy; <span id="year">year</span> GitHub Inc. All rights reserved.
+      </p>
+        <ul class="links right">
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/privacy-policy">Privacy</a></li>
+            <li><a href="/security">Security</a></li>
+          </ul>
+    </div>
+  </div> <!-- /#footer -->
+
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f4d4164f5a1f5651500026c');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3769691-27']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","5d46706dc7","1956352","TEINDQ8KRQgb",0,13436075,new Date().getTime(),"","","","",""]);</script></body>
+</html>
+Z§íz              :Lè∫       5:https://help.github.com/articles/pushing-to-a-remote security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Fri, 19 Sep 2014 02:38:52 GMT
+Etag: "09b65fd45e20daaa50856e381a286ab8"
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000
+x-content-type-options: nosniff
+X-Frame-Options: deny
+X-Request-Id: 82373203-be9e-4e00-9883-7231b70b2d38
+X-Runtime: 0.083032
+X-XSS-Protection: 1; mode=block
+Content-Length: 10504
+ charset UTF-8 uncompressed-len 0   )

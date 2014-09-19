@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults total_results="4">
+                    <addon id="4851">
+  <name>Interface Português/Brasil [pt-BR]</name>
+  <type id="5">Language Pack (Application)</type>
+  <guid>langpack-pt-BR@firefox.mozilla.org</guid>
+  <slug>firefox-br</slug>
+  <version>32.0</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="40781">
+      <name>jhultmann</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/hultmann/?src=api</link>
+    </author><author id="4757633">
+      <name>Mozilla</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mozilla/?src=api</link>
+    </author>      </authors>
+  <summary>Tradução do Firefox para o português brasileiro. Complemente a tradução instalando o corretor ortográfico: &lt;a href=&#34;https://addons.mozilla.org/firefox/addon/corretor/&#34; rel=&#34;nofollow&#34;&gt;https://addons.mozilla.org/firefox/addon/corretor/&lt;/a&gt;</summary>
+  <description>&lt;b&gt;Usa um Firefox antigo?&lt;/b&gt; Clique, no rodapé da página, &lt;i&gt;“Informações da versão”&lt;/i&gt;, &lt;i&gt;“Ver o histórico completo de versões”&lt;/i&gt;.
+
+Use esta extensão para traduzir o Mozilla Firefox em inglês para o português. É a mesma tradução do Firefox pt-BR.
+
+Use a extensão Locale Switcher para alternar entre os idiomas instalados. Para mais detalhes clique no link da homepage.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/4/4851-64.png?modified=1391800665</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/4/4851-32.png?modified=1391800665</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>32.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firefox-br/?src=api</learnmore><install hash="sha256:c40cd0921e9bfd85cc4b15a535255d8a16b09d742ee06aa50974b8cbc74276de"
+    os="ALL"
+    size="431872">https://addons.mozilla.org/firefox/downloads/file/274536/interface_portuguesbrasil_pt_br-32.0-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="18">
+      https://addons.mozilla.org/en-US/firefox/addon/firefox-br/reviews/?src=api
+    </reviews>
+    <total_downloads>894960</total_downloads>
+    <weekly_downloads>3201</weekly_downloads>
+    <daily_users>539987</daily_users>
+    <created epoch="1177221111">
+      2007-04-22T05:51:51Z
+    </created>
+    <last_updated epoch="1409682829">
+      2014-09-02T18:33:49Z
+    </last_updated>
+    <homepage>http://br.mozdev.org/firefox/idiomas</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+
+                  <addon id="6180">
+  <name>English (South African) Language Pack</name>
+  <type id="5">Language Pack (Application)</type>
+  <guid>langpack-en-ZA@firefox.mozilla.org</guid>
+  <slug>english-south-african-language</slug>
+  <version>32.0</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="169373">
+      <name>Dwayne Bailey</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/dwayne-bailey/?src=api</link>
+    </author><author id="182568">
+      <name>Translate.org.za</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/translateorgza/?src=api</link>
+    </author><author id="4757633">
+      <name>Mozilla</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mozilla/?src=api</link>
+    </author>      </authors>
+  <summary>Adds South African English language support to the Firefox browser. All interfaces will be translated into South African English.</summary>
+  <description>Translation of the Firefox user interface into South African English by &lt;a href=&#34;http://outgoing.mozilla.org/v1/ebf7b3ba66c87e5449a05dcf913d243b92346271/http%3A//translate.org.za.&#34;&gt;http://translate.org.za.&lt;/a&gt;
+
+If you find missing translations or incorrect translations then visit &lt;a href=&#34;http://outgoing.mozilla.org/v1/145f17ae8f2887d14fb2ee13dfd3452575bcb599/http%3A//pootle.translate.org.za&#34;&gt;http://pootle.translate.org.za&lt;/a&gt; and please contribute a correction.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/user-media/addon_icons/6/6180-64.png?modified=1358380391</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/user-media/addon_icons/6/6180-32.png?modified=1358380391</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>32.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>0</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/english-south-african-language/?src=api</learnmore><install hash="sha256:0f667230b837a9c2bc210b9805bc491f51b84483228a26b9ae7934da0f2fe06b"
+    os="ALL"
+    size="416399">https://addons.mozilla.org/firefox/downloads/file/274446/english_south_african_language_pack-32.0-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="0">
+      https://addons.mozilla.org/en-US/firefox/addon/english-south-african-language/reviews/?src=api
+    </reviews>
+    <total_downloads>85529</total_downloads>
+    <weekly_downloads>118</weekly_downloads>
+    <daily_users>85529</daily_users>
+    <created epoch="1197461163">
+      2007-12-12T12:06:03Z
+    </created>
+    <last_updated epoch="1409682734">
+      2014-09-02T18:32:14Z
+    </last_updated>
+    <homepage>http://translate.org.za/content/view/15/31/lang,en/</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+
+                  <addon id="417168">
+  <name>English (GB) Language Pack</name>
+  <type id="5">Language Pack (Application)</type>
+  <guid>langpack-en-GB@firefox.mozilla.org</guid>
+  <slug>english-gb-language-pack</slug>
+  <version>32.0</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4757633">
+      <name>Mozilla</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mozilla/?src=api</link>
+    </author>      </authors>
+  <summary></summary>
+  <description></description>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>32.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/english-gb-language-pack/?src=api</learnmore><install hash="sha256:d2707bbeeca0976b10639656e1c9a84562568cd7a599258e3d2198fce57c2cec"
+    os="ALL"
+    size="417180">https://addons.mozilla.org/firefox/downloads/file/274442/english_gb_language_pack-32.0-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="22">
+      https://addons.mozilla.org/en-US/firefox/addon/english-gb-language-pack/reviews/?src=api
+    </reviews>
+    <total_downloads>331422</total_downloads>
+    <weekly_downloads>3967</weekly_downloads>
+    <daily_users>331422</daily_users>
+    <created epoch="1358459080">
+      2013-01-17T21:44:40Z
+    </created>
+    <last_updated epoch="1409682728">
+      2014-09-02T18:32:08Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+
+                  <addon id="417232">
+  <name>Português Portugal Language Pack</name>
+  <type id="5">Language Pack (Application)</type>
+  <guid>langpack-pt-PT@firefox.mozilla.org</guid>
+  <slug>português-portugal-language</slug>
+  <version>32.0</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4757633">
+      <name>Mozilla</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mozilla/?src=api</link>
+    </author>      </authors>
+  <summary></summary>
+  <description></description>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>32.0</min_version>
+      <max_version>32.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/portugu%C3%AAs-portugal-language/?src=api</learnmore><install hash="sha256:67beb4cc92a17a5f456d15aff7f33706dece627839507899f6a527df70f293e0"
+    os="ALL"
+    size="411947">https://addons.mozilla.org/firefox/downloads/file/274538/portugues_portugal_language_pack-32.0-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="1">
+      https://addons.mozilla.org/en-US/firefox/addon/portugu%C3%AAs-portugal-language/reviews/?src=api
+    </reviews>
+    <total_downloads>41314</total_downloads>
+    <weekly_downloads>423</weekly_downloads>
+    <daily_users>41314</daily_users>
+    <created epoch="1358459458">
+      2013-01-17T21:50:58Z
+    </created>
+    <last_updated epoch="1409682831">
+      2014-09-02T18:33:51Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+
+          <addon_compatibility
+    hosted="true"
+    id="4851">
+    <guid>langpack-pt-BR@firefox.mozilla.org</guid>
+    <name>Interface pt-BR</name>
+    <version_ranges>
+              <version_range type="incompatible">
+          <min_version>0</min_version>
+          <max_version>10.0.2</max_version>
+          <compatible_applications>
+                          <application>
+                <name>Firefox</name>
+                <application_id>1</application_id>
+                <min_version>10.0a1</min_version>
+                <max_version>*</max_version>
+                <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+              </application>
+                      </compatible_applications>
+        </version_range>
+          </version_ranges>
+</addon_compatibility>
+</searchresults>�-�ϻ�              :K��      �:https://services.addons.mozilla.org/en-US/firefox/api/1.5/search/guid:langpack-pt-BR%40firefox.mozilla.org,%7B972ce4c6-7e08-4474-a285-3208198ce6fd%7D,langpack-pt-PT%40firefox.mozilla.org,langpack-en-GB%40firefox.mozilla.org,langpack-en-ZA%40firefox.mozilla.org,ubufox%40ubuntu.com,webapps-team%40lists.launchpad.net,%7B2e1445b0-2682-11e1-bfc2-0800200c9a66%7D,online-accounts%40lists.launchpad.net?src=firefox&appOS=Linux&appVersion=32.0&tMain=1637&tFirstPaint=17313&tSessionRestored=17369 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojKOpF0qJaNXyu+n+CAAQAAgAAAAAAAAAAAAAAACw4N6+LhUposNgK7YiYWzI/H82DxalM0aJQdnbKfH40ZgoyJpFcT/u7IImFpjLfBYkdIAm5ukoNvr5rOjDjMZEAAAAAAAAF6jCCBeYwggTOoAMCAQICEF0FlqMVrLlbecMb1N/HBGswDQYJKoZIhvcNAQEFBQAwgbUxCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazE7MDkGA1UECxMyVGVybXMgb2YgdXNlIGF0IGh0dHBzOi8vd3d3LnZlcmlzaWduLmNvbS9ycGEgKGMpMTAxLzAtBgNVBAMTJlZlcmlTaWduIENsYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAtIEczMB4XDTEyMTIzMTAwMDAwMFoXDTE2MTIzMDIzNTk1OVowgbcxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHFA1Nb3VudGFpbiBWaWV3MRwwGgYDVQQKFBNNb3ppbGxhIENvcnBvcmF0aW9uMTMwMQYDVQQLFCpUZXJtcyBvZiB1c2UgYXQgd3d3LnZlcmlzaWduLmNvbS9ycGEgKGMpMDUxKDAmBgNVBAMUH3ZlcnNpb25jaGVjay5hZGRvbnMubW96aWxsYS5vcmcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDtNux5vVfww2fCz53aH6kmkXvrs62InjYg65Fw3skxHR2iBU9C26aAN8RWWb7lwQi1fQ9/uicjNrTBk6K4QjkczAqCTN1xqiqu9y5ardnKqoimZ0ZC/82+Gi+dsUj4tZBDLQJmkxNEwDpjNDxTuR2WIDri5vHtQSUS6PcHZXOGh2o6zDzUN1mD5G7eF3sACLcQM3eaveW9KhWHYwUAxQcpueaIGOmE/8oJ+wkInF8I+ukECv9WlVqvS+6ZxzdoWQ2ogVkmjaUS8R2BzxVmDtD9t1G94KNLlcFQy71VtzxcSKhRH0juzQYRlZlHJIActvR3RF/B6ZSzC5QxpWaTVFY1AgMBAAGjggHsMIIB6DAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDBFBgNVHR8EPjA8MDqgOKA2hjRodHRwOi8vU1ZSU2VjdXJlLUczLWNybC52ZXJpc2lnbi5jb20vU1ZSU2VjdXJlRzMuY3JsMEMGA1UdIAQ8MDowOAYKYIZIAYb4RQEHNjAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy52ZXJpc2lnbi5jb20vY3BzMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAfBgNVHSMEGDAWgBQNRFwWU0TBgn4dIKsl9AFj2L55pTB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLnZlcmlzaWduLmNvbTBABggrBgEFBQcwAoY0aHR0cDovL1NWUlNlY3VyZS1HMy1haWEudmVyaXNpZ24uY29tL1NWUlNlY3VyZUczLmNlcjCBhgYDVR0RBH8wfYIbc2VydmljZXMuYWRkb25zLm1vemlsbGEub3JngiJ2ZXJzaW9uY2hlY2stYmcuYWRkb25zLm1vemlsbGEub3JnghlweXJlcG8uYWRkb25zLm1vemlsbGEub3Jngh92ZXJzaW9uY2hlY2suYWRkb25zLm1vemlsbGEub3JnMA0GCSqGSIb3DQEBBQUAA4IBAQB9SqSArBy0e2bf0E+OuWPfNR3cos2TmF4glvzNZMG53f4vTyjvxeqzIZ8y24s+RbE35k91gPUhpNX4kk6TweC4v53sQa4kqEFsLXe+xR5oqRcHaZLosbRkCq7otkgwtI4e5xbuqssAbGLQxMhKepqqXZ6EU4YcY/tS1u13saXb5yFoinMz2rd7vHFOKl5/AWPJoFM1tth02bEYTVonk6cPtoExQ1bnvCov1d+9I/ECKFuifQ4TNsmmh0AfZLID0S94HmnPHRKADJchGfTeJshO6P/8rzINgEggyBb2CCqwGTpgphW9B+J/C6b3wxS0V/vBHrqPw37/gtANPhiybhVjAAAAgAAAAIAAAAAgVExTX0RIRV9SU0FfV0lUSF9BRVNfMTI4X0NCQ19TSEEAAAABAA== request-method GET request-User-Agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:32.0) Gecko/20100101 Firefox/32.0 response-head HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 18 Sep 2014 02:18:52 GMT
+Content-Type: text/xml; charset=utf-8
+Vary: X-Mobile, User-Agent
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000
+X-Backend-Server: web3
+ uncompressed-len 0   *�
